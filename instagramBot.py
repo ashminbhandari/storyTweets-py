@@ -87,15 +87,24 @@ def postToStory():
     keyboard.press(Key.shift)
     keyboard.press('c')
     keyboard.release('c')
+    keyboard.release(Key.cmd)
+    keyboard.release(Key.shift)
     time.sleep(2)
 
     #Turn off element selector
+    keyboard.press(Key.cmd)
+    keyboard.press(Key.shift)
     keyboard.press('c')
     keyboard.release('c')
+    keyboard.release(Key.cmd)
+    keyboard.release(Key.shift)
     time.sleep(2)
 
     # Toggle device mode, this shortcut may change for windows
-    keyboard.press('M')
+    keyboard.press(Key.cmd)
+    keyboard.press(Key.shift)
+    keyboard.press('m')
+    keyboard.release('m')
     keyboard.release(Key.cmd)
     keyboard.release(Key.shift)
     time.sleep(2)
@@ -110,4 +119,3 @@ def postToStory():
         print('Tweet successfully pushed to Instagram stories')
         return True
     return False
-
