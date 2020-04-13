@@ -43,7 +43,7 @@ Start Tweeting. 🥴
 Linux/Windows may require some tweaking
 
 ## Notes
-The Instagram script relies on keyboard shortcuts to inspect element/toggle the device mode to mobile. This is because Instagram prompts us to rotate our device to upload stories even in Selenium's mobile emulator mode. Please figure out what your shortcuts are and make changes to instagramBot.py  
+The Instagram bot relies on keyboard shortcuts to inspect element/toggle the device mode to mobile. This is because Instagram prompts us to rotate our device to upload stories even in Selenium's mobile emulator mode. Please figure out what your shortcuts are and make changes to instagramBot.py  
 
 ## Contributing
 Feel free to push the knowledge forward my friend.
