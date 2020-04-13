@@ -11,7 +11,7 @@ Download and install [ChromeDriver](https://chromedriver.chromium.org/).
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install the script requirements
 
 ```bash
-pip install -r requirements
+pip install -r requirements.txt
 ```
 
 Make sure that you have a config file [config.py] setup with the parameters as shown below
