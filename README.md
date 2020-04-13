@@ -1,5 +1,49 @@
 # storyTweets-py
 
-<h2>Automatically share your latest tweets as Instagram stories. 📷</h2>
+Automatically share your Twitter tweets to Instagram stories
 
-I most recently joined Twitter and started tweeting. As a new Tweeter, I thought I would share my tweets to Instagram stories, my favorite platorm, instead of trying to amass followers on Twitter. To my great shock, I couldn't directly push my tweets to Instagram stories and so I thought, 'why not make a program that automatically shares tweets to Instagram stories each time a new tweet is made?', and so I started.
+## Installation
+
+Create a new [Twitter developers](https://developer.twitter.com/en) project to gather keys/token information
+
+Download and install [ChromeDriver](https://chromedriver.chromium.org/). 
+
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install the script requirements
+
+```bash
+pip install -r requirements
+```
+
+Make sure that you have a config file [config.py] setup with the parameters as shown below
+
+```python
+config = {'screen_name': '', #Twitter screenname to register updates for
+          'consumer_key': '', #Gather from Twitter Developers project
+          'consumer_secret': '', 
+          'access_token_key': '', 
+          'access_token_secret': '', 
+          'path_to_driver': '', #Path to ChromeDriver
+          'save_path': '', #Path to save your screenshot to
+          'listening_freq': 10} #Listening frequency 
+
+```
+
+## Usage
+```bash
+python3 listener.py
+```
+Log in to [Instagram](http://www.instagram.com) window that pops up and save your user information/pass through other prompts.
+
+Let the script listen for tweets in your terminal.
+
+Start Tweeting. 🥴
+
+✅ Tested on Mac OS.
+
+Linux/Windows may require some tweaking.
+
+## Contributing
+Feel free to push the knowledge forward my friend.
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
