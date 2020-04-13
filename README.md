@@ -32,7 +32,7 @@ config = {'screen_name': '', #Twitter screenname to register updates for
 ```bash
 python3 listener.py
 ```
-Log in to [Instagram](http://www.instagram.com) window that pops up and save your user information/pass through other prompts.
+Log in to the [Instagram](http://www.instagram.com) window that pops up and save your user information/pass through other prompts.
 
 Let the script listen for tweets in your terminal.
 
